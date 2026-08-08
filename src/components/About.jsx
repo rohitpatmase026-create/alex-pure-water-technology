@@ -1,46 +1,58 @@
 function About() {
   return (
-    <section className="section">
-      <div className="container">
+    <section
+      id="about"
+      className="py-24 px-6 bg-gradient-to-b from-white to-blue-50"
+    >
+      <div className="max-w-7xl mx-auto text-center">
 
-        <h2 className="title">
+        <h2 className="text-4xl md:text-5xl font-bold text-blue-700">
           About ALEX PURE WATER TECHNOLOGY
         </h2>
 
-        <p className="subtitle">
+        <p className="max-w-3xl mx-auto mt-6 text-lg text-gray-600 leading-8">
           We provide premium water purifier sales, installation,
           repair, AMC services and commercial water solutions.
           Our mission is to deliver clean, safe and healthy drinking
           water to every home and business.
         </p>
 
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit,minmax(250px,1fr))",
-            gap: "25px",
-            marginTop: "50px",
-          }}
-        >
-          <div className="glass" style={{ padding: "30px", borderRadius: "20px" }}>
-            <h3>💧 Pure Water</h3>
-            <p>
-              Advanced RO, UV and UF water purification systems for homes
-              and businesses.
+        <div className="grid md:grid-cols-3 gap-6 mt-14">
+
+          <div className="bg-white/70 backdrop-blur-xl p-8 rounded-3xl shadow-xl border border-blue-100">
+            <div className="text-5xl mb-5">💧</div>
+
+            <h3 className="text-2xl font-bold text-gray-800">
+              Pure Water
+            </h3>
+
+            <p className="mt-4 text-gray-600 leading-7">
+              Advanced RO, UV and UF water purification systems
+              for homes and businesses.
             </p>
           </div>
 
-          <div className="glass" style={{ padding: "30px", borderRadius: "20px" }}>
-            <h3>🛠 Installation & Service</h3>
-            <p>
-              Professional installation, repair and annual maintenance
-              by experienced technicians.
+          <div className="bg-white/70 backdrop-blur-xl p-8 rounded-3xl shadow-xl border border-blue-100">
+            <div className="text-5xl mb-5">🛠️</div>
+
+            <h3 className="text-2xl font-bold text-gray-800">
+              Installation & Service
+            </h3>
+
+            <p className="mt-4 text-gray-600 leading-7">
+              Professional installation, repair and annual
+              maintenance by experienced technicians.
             </p>
           </div>
 
-          <div className="glass" style={{ padding: "30px", borderRadius: "20px" }}>
-            <h3>📍 Service Area</h3>
-            <p>
+          <div className="bg-white/70 backdrop-blur-xl p-8 rounded-3xl shadow-xl border border-blue-100">
+            <div className="text-5xl mb-5">📍</div>
+
+            <h3 className="text-2xl font-bold text-gray-800">
+              Service Area
+            </h3>
+
+            <p className="mt-4 text-gray-600 leading-7">
               Maharashtra Chowk,
               Wanadongri,
               Hingna,

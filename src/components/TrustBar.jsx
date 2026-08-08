@@ -1,4 +1,9 @@
-import { FaUsers, FaHeadset, FaShieldAlt, FaStar } from "react-icons/fa";
+import {
+  FaUsers,
+  FaHeadset,
+  FaShieldAlt,
+  FaStar,
+} from "react-icons/fa";
 
 function TrustBar() {
   return (
@@ -11,9 +16,11 @@ function TrustBar() {
 
           <div className="text-center">
             <FaUsers className="text-5xl text-blue-600 mx-auto mb-4" />
+
             <h2 className="text-3xl font-bold text-gray-900">
               5000+
             </h2>
+
             <p className="text-gray-600">
               Happy Customers
             </p>
@@ -23,21 +30,25 @@ function TrustBar() {
 
           <div className="text-center">
             <FaHeadset className="text-5xl text-cyan-500 mx-auto mb-4" />
+
             <h2 className="text-3xl font-bold text-gray-900">
               24×7
             </h2>
+
             <p className="text-gray-600">
               Customer Support
             </p>
           </div>
 
-          {/* Genuine */}
+          {/* Genuine Parts */}
 
           <div className="text-center">
             <FaShieldAlt className="text-5xl text-green-500 mx-auto mb-4" />
+
             <h2 className="text-3xl font-bold text-gray-900">
               100%
             </h2>
+
             <p className="text-gray-600">
               Genuine Parts
             </p>
@@ -47,15 +58,18 @@ function TrustBar() {
 
           <div className="text-center">
             <FaStar className="text-5xl text-yellow-500 mx-auto mb-4" />
+
             <h2 className="text-3xl font-bold text-gray-900">
               4.9★
             </h2>
+
             <p className="text-gray-600">
               Customer Rating
             </p>
           </div>
 
         </div>
+
       </div>
     </section>
   );

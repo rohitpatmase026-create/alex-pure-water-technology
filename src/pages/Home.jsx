@@ -9,19 +9,42 @@ import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
 import FloatingButtons from "../components/FloatingButtons";
 import Footer from "../components/Footer";
+
 function Home() {
   return (
     <>
       <Navbar />
-      <Hero />
+
+      <section id="home">
+        <Hero />
+      </section>
+
       <TrustBar />
-      <About />
-      <Services />
-      <Products />
+
+      <section id="about">
+        <About />
+      </section>
+
+      <section id="services">
+        <Services />
+      </section>
+
+      <section id="products">
+        <Products />
+      </section>
+
       <WhyChooseUs />
-      <Testimonials />
-      <Contact />
+
+      <section id="testimonials">
+        <Testimonials />
+      </section>
+
+      <section id="contact">
+        <Contact />
+      </section>
+
       <FloatingButtons />
+
       <Footer />
     </>
   );
