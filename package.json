@@ -2,7 +2,7 @@
   "name": "alex-pure",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://rohitpatmase026-create.github.io/alex-pure-water-technology",
+  ""homepage": "...",
   "type": "module",
   "scripts": {
     "dev": "vite",
