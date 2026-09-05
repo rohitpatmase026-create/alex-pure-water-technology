@@ -55,7 +55,7 @@ function Contact() {
               <div>
                 <h3 className="font-bold text-xl">Phone</h3>
                 <p className="text-gray-600">
-                  +91 9021843831
+                 <p>+91 9021843831</p>
                 </p>
               </div>
             </div>
